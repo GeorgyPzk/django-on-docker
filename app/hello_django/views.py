@@ -1,4 +1,3 @@
 from django.http import HttpResponse
-
 def helloView(request):
-    return HttpResponse("Hello world! From George")
+    return HttpResponse("Hello world form George")
